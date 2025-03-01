@@ -23,9 +23,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享教育的哲学',
   HEO_HERO_TITLE_2: '与科技的思维',
   HEO_HERO_TITLE_3: 'www.roammind.com',
-  //HEO_HERO_TITLE_4: '新版上线',
+  HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: '关于我',
-  HEO_HERO_TITLE_LINK: 'https://www.roammind.com',
+  HEO_HERO_TITLE_LINK: 'https://www.roammind.com/about',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
@@ -42,12 +42,9 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🔍 科研工作者',
+    '🤝 文学|艺术|哲学爱好者',
+    '🏃 科普教育实践者'
   ],
 
   // 个人资料底部按钮
