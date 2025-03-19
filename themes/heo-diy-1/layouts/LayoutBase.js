@@ -65,9 +65,20 @@ const LayoutBase = props => {
     : <SideRight {...props} />
 
   // Load WOW.js for animations
+  // 添加在return语句前，useEffect内部
   useEffect(() => {
-    loadWowJS()
-  }, [])
+  // 加载WOW.js动画
+  loadWowJS()
+  
+  // 添加Font Awesome图标库，如果尚未添加
+  if (typeof window !== 'undefined' && !document.getElementById('font-awesome-css')) {
+    const link = document.createElement('link')
+    link.id = 'font-awesome-css'
+    link.rel = 'stylesheet'
+    link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+    document.head.appendChild(link)
+  }
+}, [])
 
   return (
     <div
