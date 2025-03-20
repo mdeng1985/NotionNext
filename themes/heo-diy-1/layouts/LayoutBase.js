@@ -50,7 +50,7 @@ const LayoutBase = props => {
       {isHomePage && (
         <>
           <NoticeBar />
-          <Hero {...props} />
+          {/* <Hero {...props} /> */}
         </>
       )}
       
